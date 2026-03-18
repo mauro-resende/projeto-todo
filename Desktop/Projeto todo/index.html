@@ -6,7 +6,7 @@
     <title>Lista de Tarefas</title>
     <link rel="stylesheet" href="style.css" />
     
-    <meta name= "description" content="Lista de tarefas interetiva feita com HTML, CSS e JAVASCRIPT puro."/>
+    <meta name="description" content="Lista de tarefas interetiva feita com HTML, CSS e JAVASCRIPT puro."/>
 
     <meta property="og:title" content="Lista de Tarefas | Mauro Resende" />
     <meta property="og:description" content="Lista de tarefas interetiva feita com HTML, CSS, e JAVASCRIPT puro" />
@@ -14,18 +14,22 @@
     <meta name="author" content="Mauro Resende" />
 
    </head>
-  <body>
-    <div class="container">
+   <body>
+
+    <main></main>
+      <div class="container"> 
       <h1>Minhas Tarefas</h1>
 
-      <div class="input-area">
+      <section class="input-area">
         <input type="text" id="input-tarefa" placeholder="Digite uma tarefa..." />
-        <button id="btn-adicionar">Adicionar</button>
-      </div>
+        <button id="btn-adicionar" aria-label="Adicionar tarefa">Adicionar</button>
+      </section>
 
       <ul id="lista-tarefas"></ul>
     </div>
+  </main>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
   </body>
-</html>
+
+ 
